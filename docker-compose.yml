@@ -2,6 +2,7 @@ version: '2'
 
 services:
   dns:
+    container_name: localdns
     build: .
     networks:
       brinternal:
