@@ -7,6 +7,9 @@ services:
     networks:
       brinternal:
         ipv4_address: 10.28.8.33
+    restart: always
+    hostname: casa
+    domainname: blago.sexy
 
 networks:
   brinternal:
