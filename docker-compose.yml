@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  dns:
+    build: .
+    networks:
+      brinternal:
+        ipv4_address: 10.28.8.33
+
+networks:
+  brinternal:
+    external: true
